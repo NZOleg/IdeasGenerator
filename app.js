@@ -69,7 +69,7 @@ app.use(function (req,res,next) {
 
 //index Route
 app.get('/', (req,res)=>{
-  const title = "Welcome oje";
+  const title = "Welcome!";
   res.render('index', {
     title:title
   });
